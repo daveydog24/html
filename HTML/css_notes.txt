@@ -1,0 +1,75 @@
+button {
+  border: 2px dotted green;
+}
+div {
+  border: 1px solid #000000;
+}
+p {
+  border-right: 1px groove rgb(100,100,100);
+  border-left: 1px groove rgb(200,200,200);
+}
+button {
+  border-radius: 5px;
+}
+
+/* hex style code */
+p {
+  color: #ffffff;  
+}
+
+/* rgb style code */
+a {
+  color: rgb(255, 255, 255);
+}
+
+/* semantic code */
+span {
+  color: white; 
+}
+
+/*The text-decoration property is used to add and remove underlines, overlines, and line-throughs.*/
+a {
+  text-decoration: none;
+}
+
+/*Web safe font style
+  named-family= Ex. "times", "arial", "courier
+  generic-family= Ex. "serif", "sans-serif", "cursive", "fantasy", "monospace"
+    The browser will go through them until it finds one on the system that can be used so always end with a generic-family style at the end just in case for a default. 
+    fonts with more than one name in them need to be surronded in quotes
+p {
+  font-family: "helvetica neue", arial, verdana, sans-serif;
+}
+
+
+font-size= 4 different ways to represent font size (Point/Pixel/Em/Percent)
+h3 {
+  font-size: 10pt;
+}
+p {
+  font-size: 14px;
+}
+a {
+  font-size: 1.2em;
+}
+span {
+  font-size: 80%;
+}
+
+font-style= uses or mimics the font style to be slanted (italic)
+span {
+  font-style: italic;
+}
+
+font weight= defines the thickness of a character line. normal is often the default value. they can be set semantically or numerically
+p {
+  font-weight: bold;
+}
+span {
+  font-weight: 600;
+}
+
+
+
+
+
